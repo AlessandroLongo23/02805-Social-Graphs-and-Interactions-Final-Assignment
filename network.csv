@@ -1,0 +1,699 @@
+Source,Target,Direct Lines,Direct Words,Indirect Lines,Indirect Words,Talked About,Mentions
+Alliser Thorne,Bran Stark,0,0,0,0,2,0
+Alliser Thorne,Grenn,4,74,9,70,2,0
+Alliser Thorne,Jeor Mormont,0,0,0,0,2,0
+Alliser Thorne,Jeren,3,50,7,63,0,0
+Alliser Thorne,Jon Snow,15,126,6,84,2,0
+Alliser Thorne,Toad,3,50,7,63,0,0
+Alliser Thorne,Tyrion Lannister,4,37,7,60,0,0
+Arya Stark,Arya Stark,1,1,0,0,0,0
+Arya Stark,Barristan Selmy,0,0,12,50,0,0
+Arya Stark,Beth Cassel,2,7,5,23,0,0
+Arya Stark,Bran Stark,0,0,0,0,3,1
+Arya Stark,Cersei Lannister,5,25,7,25,1,0
+Arya Stark,Eddard Stark,4,18,8,32,0,0
+Arya Stark,Jeyne Poole,2,7,5,23,0,0
+Arya Stark,Joffrey Baratheon,5,15,14,60,2,0
+Arya Stark,Jon Snow,30,193,1,3,2,1
+Arya Stark,Jory Cassel,0,0,12,50,0,0
+Arya Stark,Mordane,2,8,0,0,2,2
+Arya Stark,Mycah,0,0,5,19,5,3
+Arya Stark,Myrcella Baratheon,1,5,3,13,1,1
+Arya Stark,Nymeria,8,28,0,0,0,0
+Arya Stark,Renly Baratheon,0,0,8,37,0,0
+Arya Stark,Rhaegar Targaryen,0,0,0,0,1,1
+Arya Stark,Robb Stark,0,0,0,0,1,0
+Arya Stark,Robert Baratheon,2,7,10,43,1,1
+Arya Stark,Sansa Stark,25,212,13,51,0,0
+Arya Stark,Tommen Baratheon,0,0,0,0,1,0
+Arya Stark,Vayon Poole,0,0,4,13,0,0
+Barristan Selmy,Arya Stark,0,0,1,10,0,0
+Barristan Selmy,Cersei Lannister,1,10,4,61,0,0
+Barristan Selmy,Eddard Stark,0,0,1,10,1,1
+Barristan Selmy,Ilyn Payne,0,0,4,61,1,1
+Barristan Selmy,Joffrey Baratheon,0,0,5,71,0,0
+Barristan Selmy,Jory Cassel,0,0,1,10,0,0
+Barristan Selmy,Renly Baratheon,0,0,4,61,1,0
+Barristan Selmy,Sansa Stark,4,61,1,10,0,0
+Barristan Selmy,Vayon Poole,0,0,1,10,0,0
+Benjen Stark,Alliser Thorne,0,0,0,0,1,1
+Benjen Stark,Bran Stark,0,0,0,0,1,0
+Benjen Stark,Daeren I Targaryen,0,0,0,0,2,1
+Benjen Stark,Eddard Stark,0,0,0,0,2,0
+Benjen Stark,Jon Snow,29,395,0,0,0,0
+Benjen Stark,Rickon Stark,0,0,0,0,1,0
+Benjen Stark,Robb Stark,0,0,0,0,1,0
+Benjen Stark,Tyrion Lannister,2,21,1,20,0,0
+Beth Cassel,Arya Stark,2,14,0,0,0,0
+Beth Cassel,Jeyne Poole,0,0,2,14,0,0
+Beth Cassel,Joffrey Baratheon,0,0,0,0,1,0
+Beth Cassel,Sansa Stark,0,0,2,14,2,0
+Bran Stark,Catelyn Stark,0,0,0,0,1,1
+Bran Stark,Cersei Lannister,0,0,1,1,0,0
+Bran Stark,Desmond,0,0,7,16,0,0
+Bran Stark,Eddard Stark,12,64,2,3,0,0
+Bran Stark,Gared,0,0,0,0,2,0
+Bran Stark,Harwin,0,0,7,16,0,0
+Bran Stark,Hullen,0,0,7,16,0,0
+Bran Stark,Jaime Lannister,1,1,0,0,0,0
+Bran Stark,Jon Snow,0,0,7,16,1,1
+Bran Stark,Jory Cassel,0,0,7,16,0,0
+Bran Stark,Luwin,1,10,0,0,0,0
+Bran Stark,Robb Stark,1,4,7,16,1,1
+Bran Stark,Robert Baratheon,0,0,0,0,1,1
+Bran Stark,Summer,4,17,0,0,0,0
+Bran Stark,Theon Greyjoy,2,3,5,13,0,0
+Bran Stark,Three-Eyed crow,15,53,1,9,0,0
+Catelyn Stark,Aron Santagar,0,0,0,0,2,1
+Catelyn Stark,Arya Stark,0,0,0,0,8,2
+Catelyn Stark,Benjen Stark,0,0,0,0,1,0
+Catelyn Stark,Bran Stark,0,0,0,0,28,17
+Catelyn Stark,Brandon Stark,0,0,0,0,4,4
+Catelyn Stark,Brynden Tully,0,0,0,0,1,1
+Catelyn Stark,Catelyn Stark,0,0,0,0,1,0
+Catelyn Stark,Cersei Lannister,0,0,0,0,3,1
+Catelyn Stark,Eddard Stark,85,921,5,65,7,5
+Catelyn Stark,Hallis Mollen,12,116,4,41,0,0
+Catelyn Stark,Hoster Tully,0,0,0,0,1,0
+Catelyn Stark,Jaime Lannister,1,19,0,0,2,1
+Catelyn Stark,Joffrey Baratheon,0,0,0,0,3,0
+Catelyn Stark,Jon Arryn,0,0,0,0,6,6
+Catelyn Stark,Jon Snow,11,87,0,0,3,1
+Catelyn Stark,Luwin,20,258,52,457,6,6
+Catelyn Stark,Lysa Arryn,0,0,0,0,10,6
+Catelyn Stark,Moreo Tumitis,6,77,1,14,1,0
+Catelyn Stark,Myrcella Baratheon,0,0,0,0,1,0
+Catelyn Stark,Petyr Baelish,15,145,24,236,10,6
+Catelyn Stark,Pycelle,0,0,0,0,1,1
+Catelyn Stark,Rickon Stark,0,0,0,0,5,1
+Catelyn Stark,Robb Stark,39,395,17,282,4,0
+Catelyn Stark,Robert Arryn,0,0,0,0,3,0
+Catelyn Stark,Robert Baratheon,0,0,0,0,9,4
+Catelyn Stark,Rodrik Cassel,26,452,27,263,2,2
+Catelyn Stark,Sansa Stark,0,0,0,0,9,2
+Catelyn Stark,Summer,1,2,0,0,0,0
+Catelyn Stark,Theon Greyjoy,13,181,27,286,0,0
+Catelyn Stark,Tommen Baratheon,0,0,0,0,2,1
+Catelyn Stark,Tyrion Lannister,0,0,0,0,1,0
+Catelyn Stark,Unknown (Bran's assassin),3,5,0,0,7,0
+Catelyn Stark,Unknown (Gold Cloak),4,18,2,10,0,0
+Catelyn Stark,Unknown (Servants),2,17,0,0,0,0
+Catelyn Stark,Varys,11,82,4,12,4,2
+Cersei Lannister,Arya Stark,2,21,13,140,5,0
+Cersei Lannister,Barristan Selmy,5,53,18,224,1,0
+Cersei Lannister,Bran Stark,0,0,4,15,3,0
+Cersei Lannister,Eddard Stark,3,50,12,111,8,3
+Cersei Lannister,Ilyn Payne,0,0,8,116,4,1
+Cersei Lannister,Jaime Lannister,20,274,12,97,0,0
+Cersei Lannister,Joffrey Baratheon,2,51,21,226,6,2
+Cersei Lannister,Jon Arryn,0,0,0,0,1,1
+Cersei Lannister,Jory Cassel,0,0,15,161,0,0
+Cersei Lannister,Lyanna Stark,0,0,0,0,1,1
+Cersei Lannister,Lysa Arryn,0,0,0,0,2,0
+Cersei Lannister,Mycah,0,0,0,0,1,0
+Cersei Lannister,Myrcella Baratheon,1,11,11,86,1,1
+Cersei Lannister,Renly Baratheon,2,27,10,147,2,1
+Cersei Lannister,Robert Arryn,0,0,0,0,1,0
+Cersei Lannister,Robert Baratheon,7,70,5,70,12,4
+Cersei Lannister,Sandor Clegane,0,0,3,31,0,0
+Cersei Lannister,Sansa Stark,3,63,16,156,1,0
+Cersei Lannister,Stannis Baratheon,0,0,0,0,1,1
+Cersei Lannister,Tommen Baratheon,1,11,11,86,0,0
+Cersei Lannister,Tyrion Lannister,12,97,0,0,0,0
+Cersei Lannister,Unknown (Everyone),2,16,0,0,0,0
+Cersei Lannister,Vayon Poole,0,0,11,103,0,0
+Daenerys Targaryen,Cohollo,1,29,0,0,0,0
+Daenerys Targaryen,Daenerys Targaryen,2,21,0,0,0,0
+Daenerys Targaryen,Drogo,3,13,7,55,3,1
+Daenerys Targaryen,Haggo,1,29,0,0,0,0
+Daenerys Targaryen,Illyrio Mopatis,8,33,1,29,2,0
+Daenerys Targaryen,Jorah Mormont,0,0,7,55,2,0
+Daenerys Targaryen,Qotho,1,29,0,0,0,0
+Daenerys Targaryen,Unknown (Illyrio's servants),1,1,0,0,0,0
+Daenerys Targaryen,Viserys Targaryen,7,40,9,62,0,0
+Desmond,Catelyn Stark,0,0,2,15,0,0
+Desmond,Eddard Stark,2,15,0,0,0,0
+Desmond,Luwin,0,0,0,0,2,1
+Donal Noye,Aemon Targaryen (son of Maekar I),0,0,0,0,1,0
+Donal Noye,Alliser Thorne,0,0,0,0,1,1
+Donal Noye,Cotter Pyke,0,0,0,0,1,1
+Donal Noye,Eddard Stark,0,0,0,0,1,0
+Donal Noye,Grenn,4,59,0,0,0,0
+Donal Noye,Jeren,1,34,0,0,1,1
+Donal Noye,Jon Snow,24,507,0,0,0,0
+Donal Noye,Toad,4,59,0,0,2,2
+Donal Noye,Unknown (Raper),3,25,0,0,0,0
+Drogo,Daenerys Targaryen,7,7,0,0,0,0
+Eddard Stark,Aerys II Targaryen,0,0,0,0,6,5
+Eddard Stark,Arya Stark,5,14,18,124,12,2
+Eddard Stark,Balon Greyjoy,0,0,0,0,1,0
+Eddard Stark,Barristan Selmy,0,0,22,133,1,1
+Eddard Stark,Benjen Stark,0,0,0,0,4,4
+Eddard Stark,Bran Stark,18,433,10,117,11,5
+Eddard Stark,Brandon Stark,0,0,0,0,6,5
+Eddard Stark,Brynden Tully,0,0,0,0,1,0
+Eddard Stark,Catelyn Stark,94,1342,24,296,11,5
+Eddard Stark,Cersei Lannister,3,21,20,117,7,1
+Eddard Stark,Daenerys Targaryen,0,0,0,0,3,1
+Eddard Stark,Desmond,6,50,12,228,0,0
+Eddard Stark,Drogo,0,0,0,0,1,0
+Eddard Stark,Farlen,0,0,0,0,1,0
+Eddard Stark,Galbart Glover,0,0,0,0,1,1
+Eddard Stark,Gared,1,58,0,0,4,0
+Eddard Stark,Harwin,2,14,13,245,0,0
+Eddard Stark,Helman Tallhart,0,0,0,0,1,1
+Eddard Stark,Hullen,2,14,13,245,1,1
+Eddard Stark,Jaime Lannister,0,0,1,5,9,5
+Eddard Stark,Joffrey Baratheon,0,0,23,138,8,3
+Eddard Stark,Jon Arryn,0,0,0,0,9,8
+Eddard Stark,Jon Snow,7,34,9,226,8,3
+Eddard Stark,Jorah Mormont,0,0,0,0,3,0
+Eddard Stark,Jory Cassel,10,90,32,342,3,3
+Eddard Stark,Lady,1,1,0,0,0,0
+Eddard Stark,Luwin,15,188,28,354,5,3
+Eddard Stark,Lyanna Stark,0,0,0,0,10,2
+Eddard Stark,Lysa Arryn,0,0,0,0,8,3
+Eddard Stark,Mance Rayder,0,0,0,0,2,1
+Eddard Stark,Mycah,0,0,0,0,1,0
+Eddard Stark,Myrcella Baratheon,0,0,1,5,3,0
+Eddard Stark,Old Nan,0,0,0,0,2,2
+Eddard Stark,Petyr Baelish,27,294,30,260,0,0
+Eddard Stark,Pycelle,8,47,16,164,0,0
+Eddard Stark,Renly Baratheon,11,73,21,180,1,0
+Eddard Stark,Rhaegar Targaryen,0,0,0,0,2,2
+Eddard Stark,Rickard Stark,0,0,0,0,4,2
+Eddard Stark,Rickon Stark,0,0,1,5,8,1
+Eddard Stark,Robb Stark,9,175,7,89,12,5
+Eddard Stark,Robert Arryn,0,0,0,0,8,1
+Eddard Stark,Robert Baratheon,104,1198,8,24,16,11
+Eddard Stark,Rodrik Cassel,3,20,0,0,1,1
+Eddard Stark,Sandor Clegane,1,4,1,5,0,0
+Eddard Stark,Sansa Stark,3,10,12,86,12,4
+Eddard Stark,Stannis Baratheon,0,0,0,0,1,1
+Eddard Stark,Theon Greyjoy,2,14,13,245,1,1
+Eddard Stark,Three-Eyed crow,0,0,1,10,0,0
+Eddard Stark,Tommen Baratheon,0,0,1,5,3,0
+Eddard Stark,Tyrion Lannister,0,0,1,5,2,1
+Eddard Stark,Tywin Lannister,0,0,0,0,2,1
+Eddard Stark,Unknown (King's Steward),5,41,0,0,0,0
+Eddard Stark,Varys,10,68,15,149,2,1
+Eddard Stark,Vayon Poole,6,64,14,91,0,0
+Eddard Stark,Viserys Targaryen,0,0,0,0,2,0
+Eddard Stark,Wylla,0,0,0,0,2,1
+Eddard Stark,Wyman Manderly,0,0,0,0,1,1
+Gared,Jeor Mormont,0,0,0,0,1,1
+Gared,Unknown,2,16,0,0,0,0
+Gared,Unknown (Gared's brother),0,0,0,0,1,0
+Gared,Waymar Royce,22,343,0,0,2,0
+Gared,Will,2,12,20,331,2,2
+Grenn,Alliser Thorne,1,5,1,7,0,0
+Grenn,Donal Noye,1,4,0,0,0,0
+Grenn,Jeren,0,0,1,5,0,0
+Grenn,Jon Snow,2,13,2,9,2,0
+Grenn,Toad,0,0,3,15,0,0
+Grenn,Tyrion Lannister,0,0,1,7,0,0
+Grenn,Unknown (Raper),0,0,1,4,0,0
+Hallis Mollen,Bran Stark,0,0,0,0,1,0
+Hallis Mollen,Catelyn Stark,7,114,1,4,0,0
+Hallis Mollen,Hodor,0,0,0,0,1,1
+Hallis Mollen,Luwin,0,0,2,11,0,0
+Hallis Mollen,Robb Stark,1,4,7,114,0,0
+Hallis Mollen,Rodrik Cassel,0,0,8,118,0,0
+Hallis Mollen,Theon Greyjoy,0,0,8,118,0,0
+Hallis Mollen,Unknown (Bran's assassin),0,0,0,0,5,0
+Harwin,Bran Stark,0,0,1,5,0,0
+Harwin,Desmond,0,0,1,5,0,0
+Harwin,Eddard Stark,0,0,1,5,0,0
+Harwin,Hullen,0,0,1,5,0,0
+Harwin,Jon Snow,0,0,1,5,0,0
+Harwin,Jory Cassel,0,0,1,5,0,0
+Harwin,Robb Stark,1,5,0,0,0,0
+Harwin,Theon Greyjoy,0,0,1,5,0,0
+Hullen,Bran Stark,2,13,3,15,0,0
+Hullen,Desmond,2,13,3,15,0,0
+Hullen,Eddard Stark,2,13,3,15,0,0
+Hullen,Harwin,2,13,3,15,0,0
+Hullen,Jon Snow,2,13,3,15,0,0
+Hullen,Jory Cassel,2,13,3,15,0,0
+Hullen,Robb Stark,3,20,2,8,0,0
+Hullen,Theon Greyjoy,2,13,3,15,0,0
+Hullen,Unknown (Another man),2,8,0,0,0,0
+Illyrio Mopatis,Aerys II Targaryen,0,0,0,0,1,0
+Illyrio Mopatis,Cohollo,0,0,0,0,1,0
+Illyrio Mopatis,Daenerys Targaryen,22,270,15,254,4,0
+Illyrio Mopatis,Drogo,0,0,6,62,13,4
+Illyrio Mopatis,Haggo,0,0,0,0,1,0
+Illyrio Mopatis,High Septon (fat one),0,0,0,0,1,1
+Illyrio Mopatis,Jorah Mormont,0,0,10,141,4,1
+Illyrio Mopatis,Moro,0,0,0,0,1,1
+Illyrio Mopatis,Qotho,0,0,0,0,1,0
+Illyrio Mopatis,Rhogoro,0,0,0,0,1,1
+Illyrio Mopatis,Robert Baratheon,0,0,0,0,2,0
+Illyrio Mopatis,Unknown,1,11,0,0,0,0
+Illyrio Mopatis,Viserys Targaryen,21,344,14,140,0,0
+Jaime Lannister,Aerys II Targaryen,0,0,0,0,1,0
+Jaime Lannister,Bran Stark,4,17,2,9,4,0
+Jaime Lannister,Brandon Stark,0,0,0,0,2,1
+Jaime Lannister,Cersei Lannister,24,262,7,52,0,0
+Jaime Lannister,Eddard Stark,0,0,0,0,5,2
+Jaime Lannister,Luwin,0,0,0,0,1,0
+Jaime Lannister,Lysa Arryn,0,0,0,0,4,2
+Jaime Lannister,Myrcella Baratheon,0,0,6,61,0,0
+Jaime Lannister,Petyr Baelish,0,0,0,0,1,1
+Jaime Lannister,Renly Baratheon,0,0,0,0,2,0
+Jaime Lannister,Robert Baratheon,0,0,0,0,5,3
+Jaime Lannister,Stannis Baratheon,0,0,0,0,2,1
+Jaime Lannister,Three-Eyed crow,0,0,1,6,0,0
+Jaime Lannister,Tommen Baratheon,0,0,6,61,0,0
+Jaime Lannister,Tyrion Lannister,12,131,1,13,0,0
+Jeor Mormont,Bran Stark,0,0,0,0,1,0
+Jeor Mormont,Jon Snow,3,16,0,0,0,0
+Jeyne Poole,Arya Stark,2,11,0,0,0,0
+Jeyne Poole,Beth Cassel,0,0,2,11,0,0
+Jeyne Poole,Joffrey Baratheon,0,0,0,0,2,1
+Jeyne Poole,Sansa Stark,0,0,2,11,2,0
+Joffrey Baratheon,Aerys II Targaryen,0,0,0,0,1,1
+Joffrey Baratheon,Arya Stark,7,24,10,84,3,0
+Joffrey Baratheon,Barristan Selmy,0,0,8,73,0,0
+Joffrey Baratheon,Bran Stark,0,0,9,64,3,0
+Joffrey Baratheon,Catelyn Stark,0,0,0,0,1,0
+Joffrey Baratheon,Cersei Lannister,2,18,6,55,2,1
+Joffrey Baratheon,Donnis,0,0,9,64,0,0
+Joffrey Baratheon,Eddard Stark,0,0,3,17,1,0
+Joffrey Baratheon,Ilyn Payne,0,0,5,56,0,0
+Joffrey Baratheon,Jaime Lannister,0,0,0,0,1,1
+Joffrey Baratheon,Jory Cassel,0,0,3,17,0,0
+Joffrey Baratheon,Lew (guard),0,0,9,64,0,0
+Joffrey Baratheon,Mycah,8,70,2,7,2,0
+Joffrey Baratheon,Renly Baratheon,1,8,7,65,0,0
+Joffrey Baratheon,Rhaegar Targaryen,0,0,0,0,1,1
+Joffrey Baratheon,Robb Stark,4,21,5,37,2,1
+Joffrey Baratheon,Robert Baratheon,0,0,3,17,2,0
+Joffrey Baratheon,Rodrik Cassel,1,8,7,54,0,0
+Joffrey Baratheon,Sandor Clegane,5,47,15,122,1,0
+Joffrey Baratheon,Sansa Stark,19,198,15,110,4,0
+Joffrey Baratheon,Theon Greyjoy,2,21,7,43,0,0
+Joffrey Baratheon,Tommen Baratheon,2,14,7,50,0,0
+Joffrey Baratheon,Tyrion Lannister,4,26,4,37,0,0
+Joffrey Baratheon,Unknown (A man),1,3,0,0,0,0
+Joffrey Baratheon,Unknown (A second man),1,3,0,0,0,0
+Jon Snow,Alliser Thorne,9,30,3,48,1,1
+Jon Snow,Arya Stark,45,451,0,0,3,0
+Jon Snow,Benjen Stark,26,225,1,2,7,4
+Jon Snow,Bran Stark,12,91,18,109,15,7
+Jon Snow,Catelyn Stark,8,26,6,55,2,0
+Jon Snow,Cersei Lannister,0,0,0,0,2,0
+Jon Snow,Daeren I Targaryen,0,0,0,0,1,1
+Jon Snow,Desmond,0,0,17,97,0,0
+Jon Snow,Donal Noye,15,96,0,0,0,0
+Jon Snow,Eddard Stark,11,72,7,34,6,4
+Jon Snow,Gared,0,0,0,0,1,0
+Jon Snow,Ghost,5,17,0,0,0,0
+Jon Snow,Grenn,2,51,9,34,0,0
+Jon Snow,Harwin,0,0,17,97,0,0
+Jon Snow,Hullen,0,0,17,97,1,1
+Jon Snow,Jeor Mormont,5,21,0,0,0,0
+Jon Snow,Jeren,0,0,3,5,0,0
+Jon Snow,Joffrey Baratheon,0,0,0,0,4,2
+Jon Snow,Jon Arryn,0,0,0,0,1,0
+Jon Snow,Jon Snow,1,1,0,0,0,0
+Jon Snow,Jory Cassel,0,0,17,97,0,0
+Jon Snow,Luwin,0,0,0,0,1,1
+Jon Snow,Mikken,0,0,0,0,1,1
+Jon Snow,Mordane,0,0,0,0,5,2
+Jon Snow,Rickon Stark,0,0,0,0,3,0
+Jon Snow,Robb Stark,11,66,17,97,7,4
+Jon Snow,Robert Baratheon,0,0,0,0,1,0
+Jon Snow,Rodrik Cassel,0,0,0,0,1,1
+Jon Snow,Sansa Stark,0,0,0,0,4,1
+Jon Snow,Theon Greyjoy,6,27,12,71,0,0
+Jon Snow,Toad,1,8,5,17,1,0
+Jon Snow,Tyrion Lannister,47,351,9,75,0,0
+Jon Snow,Unknown (Guard),1,6,0,0,0,0
+Jon Snow,Unknown (Raper),1,1,1,8,0,0
+Jon Snow,Waymar Royce,0,0,0,0,1,1
+Jon Snow,Yohn Royce,0,0,0,0,1,0
+Jorah Mormont,Daenerys Targaryen,2,24,2,60,1,1
+Jorah Mormont,Drogo,0,0,2,24,1,0
+Jorah Mormont,Illyrio Mopatis,0,0,3,74,0,0
+Jorah Mormont,Jorah Mormont,0,0,1,10,0,0
+Jorah Mormont,Viserys Targaryen,2,60,2,24,0,0
+Jory Cassel,Arya Stark,0,0,1,9,0,0
+Jory Cassel,Barristan Selmy,0,0,1,9,0,0
+Jory Cassel,Bran Stark,1,4,3,11,0,0
+Jory Cassel,Cersei Lannister,0,0,1,9,0,0
+Jory Cassel,Desmond,1,4,2,8,0,0
+Jory Cassel,Eddard Stark,4,13,2,14,0,0
+Jory Cassel,Harwin,1,4,2,8,0,0
+Jory Cassel,Hullen,1,4,2,8,0,0
+Jory Cassel,Joffrey Baratheon,0,0,1,9,0,0
+Jory Cassel,Jon Snow,1,4,2,8,0,0
+Jory Cassel,Robb Stark,2,9,1,3,0,0
+Jory Cassel,Robert Baratheon,1,9,0,0,0,0
+Jory Cassel,Sansa Stark,0,0,1,9,0,0
+Jory Cassel,Theon Greyjoy,1,4,2,8,0,0
+Jory Cassel,Vayon Poole,0,0,1,9,0,0
+Luwin,Benjen Stark,0,0,0,0,1,1
+Luwin,Bran Stark,0,0,0,0,3,0
+Luwin,Catelyn Stark,22,250,17,214,1,0
+Luwin,Cersei Lannister,0,0,0,0,1,0
+Luwin,Eddard Stark,19,250,3,32,1,1
+Luwin,Hallis Mollen,0,0,1,3,0,0
+Luwin,Hullen,0,0,0,0,1,1
+Luwin,Jaime Lannister,0,0,0,0,1,0
+Luwin,Jon Arryn,0,0,0,0,1,1
+Luwin,Jon Snow,0,0,0,0,4,3
+Luwin,Jory Cassel,0,0,0,0,1,1
+Luwin,Lysa Arryn,0,0,0,0,1,1
+Luwin,Robb Stark,5,64,5,27,0,0
+Luwin,Robert Arryn,0,0,0,0,1,0
+Luwin,Robert Baratheon,0,0,0,0,1,0
+Luwin,Rodrik Cassel,3,44,4,21,0,0
+Luwin,Theon Greyjoy,3,44,4,21,0,0
+Luwin,Vayon Poole,0,0,0,0,1,1
+Mordane,Arya Stark,7,66,1,7,4,3
+Mordane,Beth Cassel,0,0,8,73,0,0
+Mordane,Catelyn Stark,3,21,0,0,0,0
+Mordane,Cersei Lannister,0,0,0,0,1,0
+Mordane,Eddard Stark,0,0,0,0,1,0
+Mordane,Jeyne Poole,0,0,8,73,0,0
+Mordane,Myrcella Baratheon,0,0,8,73,2,1
+Mordane,Sansa Stark,8,107,6,60,2,1
+Moreo Tumitis,Catelyn Stark,9,177,2,12,0,0
+Moreo Tumitis,Rodrik Cassel,3,20,5,136,0,0
+Mormont's raven,Jeor Mormont,3,5,0,0,0,0
+Mormont's raven,Jon Snow,3,5,0,0,0,0
+Mycah,Arya Stark,0,0,5,24,2,0
+Mycah,Joffrey Baratheon,5,24,0,0,0,0
+Mycah,Sansa Stark,0,0,5,24,0,0
+Myrcella Baratheon,Bran Stark,0,0,0,0,1,1
+Myrcella Baratheon,Cersei Lannister,0,0,1,5,0,0
+Myrcella Baratheon,Jaime Lannister,0,0,1,5,0,0
+Myrcella Baratheon,Tommen Baratheon,0,0,1,5,0,0
+Myrcella Baratheon,Tyrion Lannister,1,5,0,0,0,0
+Petyr Baelish,Aron Santagar,0,0,0,0,1,1
+Petyr Baelish,Barristan Selmy,0,0,0,0,1,0
+Petyr Baelish,Brandon Stark,0,0,0,0,2,1
+Petyr Baelish,Catelyn Stark,35,584,19,316,9,5
+Petyr Baelish,Cersei Lannister,0,0,0,0,2,0
+Petyr Baelish,Eddard Stark,43,690,9,200,1,0
+Petyr Baelish,High Septon (fat one),0,0,0,0,1,1
+Petyr Baelish,Ilyn Payne,0,0,0,0,1,1
+Petyr Baelish,Jaime Lannister,0,0,0,0,2,2
+Petyr Baelish,Joffrey Baratheon,0,0,0,0,1,1
+Petyr Baelish,Loras Tyrell,0,0,0,0,1,1
+Petyr Baelish,Lysa Arryn,0,0,0,0,1,0
+Petyr Baelish,Mace Tyrell,0,0,0,0,1,1
+Petyr Baelish,Pycelle,2,52,12,184,1,0
+Petyr Baelish,Renly Baratheon,0,0,14,236,2,1
+Petyr Baelish,Robert Baratheon,0,0,0,0,6,4
+Petyr Baelish,Rodrik Cassel,0,0,2,42,1,1
+Petyr Baelish,Stannis Baratheon,0,0,0,0,1,0
+Petyr Baelish,Tyrion Lannister,0,0,0,0,4,1
+Petyr Baelish,Tywin Lannister,0,0,0,0,1,1
+Petyr Baelish,Unknown (Gold Cloak),1,2,1,1,0,0
+Petyr Baelish,Varys,1,1,26,400,8,7
+Pycelle,Eddard Stark,5,52,1,6,0,0
+Pycelle,Jon Arryn,0,0,0,0,1,1
+Pycelle,Petyr Baelish,1,6,5,52,0,0
+Pycelle,Renly Baratheon,0,0,6,58,0,0
+Pycelle,Robert Baratheon,0,0,0,0,1,0
+Pycelle,Varys,0,0,6,58,0,0
+Renly Baratheon,Aerys II Targaryen,0,0,0,0,1,1
+Renly Baratheon,Arya Stark,0,0,3,43,1,0
+Renly Baratheon,Barristan Selmy,0,0,8,106,1,1
+Renly Baratheon,Cersei Lannister,0,0,8,106,0,0
+Renly Baratheon,Eddard Stark,10,127,8,86,1,0
+Renly Baratheon,Ilyn Payne,0,0,5,63,3,2
+Renly Baratheon,Joffrey Baratheon,1,30,7,76,0,0
+Renly Baratheon,Jory Cassel,0,0,3,43,0,0
+Renly Baratheon,Petyr Baelish,5,43,10,127,0,0
+Renly Baratheon,Pycelle,2,28,13,142,1,1
+Renly Baratheon,Robert Baratheon,1,11,2,32,8,0
+Renly Baratheon,Sansa Stark,5,63,3,43,0,0
+Renly Baratheon,Varys,2,28,13,142,1,1
+Renly Baratheon,Vayon Poole,0,0,3,43,0,0
+Robb Stark,Arya Stark,0,0,0,0,1,0
+Robb Stark,Benjen Stark,0,0,0,0,3,2
+Robb Stark,Bran Stark,4,16,21,109,15,7
+Robb Stark,Catelyn Stark,32,270,6,54,2,0
+Robb Stark,Desmond,0,0,14,77,0,0
+Robb Stark,Donnis,0,0,7,25,0,0
+Robb Stark,Eddard Stark,7,52,7,25,1,1
+Robb Stark,Gared,0,0,0,0,4,0
+Robb Stark,Grey Wind,0,0,0,0,0,1
+Robb Stark,Hallis Mollen,2,40,6,54,1,1
+Robb Stark,Harwin,0,0,14,77,0,0
+Robb Stark,Hullen,0,0,14,77,0,0
+Robb Stark,Jaime Lannister,0,0,0,0,2,0
+Robb Stark,Joffrey Baratheon,4,15,2,9,1,0
+Robb Stark,Jon Snow,18,90,14,77,0,0
+Robb Stark,Jory Cassel,2,7,12,70,0,0
+Robb Stark,Lew (guard),0,0,7,25,0,0
+Robb Stark,Luwin,7,28,8,79,2,2
+Robb Stark,Rickon Stark,0,0,0,0,2,1
+Robb Stark,Rodrik Cassel,5,23,17,129,1,1
+Robb Stark,Sandor Clegane,1,1,6,24,0,0
+Robb Stark,Sansa Stark,0,0,0,0,1,0
+Robb Stark,Shaggydog,0,0,0,0,0,1
+Robb Stark,Summer,0,0,0,0,1,0
+Robb Stark,Theon Greyjoy,7,34,29,195,0,0
+Robb Stark,Tommen Baratheon,0,0,7,25,0,0
+Robb Stark,Unknown (Bran's assassin),0,0,0,0,2,0
+Robert Baratheon,Aerys II Targaryen,0,0,0,0,2,2
+Robert Baratheon,Arya Stark,2,26,19,251,6,0
+Robert Baratheon,Baelor I Targaryen,0,0,0,0,1,1
+Robert Baratheon,Barristan Selmy,1,11,17,235,0,0
+Robert Baratheon,Becca,0,0,0,0,1,1
+Robert Baratheon,Benjen Stark,0,0,0,0,1,0
+Robert Baratheon,Bran Stark,0,0,3,31,0,0
+Robert Baratheon,Brandon Stark,0,0,0,0,1,1
+Robert Baratheon,Catelyn Stark,0,0,3,31,2,2
+Robert Baratheon,Cersei Lannister,10,105,11,172,4,2
+Robert Baratheon,Daenerys Targaryen,0,0,0,0,3,0
+Robert Baratheon,Drogo,0,0,0,0,2,1
+Robert Baratheon,Eddard Stark,125,2501,14,135,0,0
+Robert Baratheon,Illyrio Mopatis,0,0,0,0,1,0
+Robert Baratheon,Ilyn Payne,0,0,0,0,1,1
+Robert Baratheon,Jaime Lannister,0,0,3,31,9,4
+Robert Baratheon,Joffrey Baratheon,2,15,19,262,5,1
+Robert Baratheon,Jon Arryn,0,0,0,0,7,6
+Robert Baratheon,Jon Snow,0,0,0,0,2,0
+Robert Baratheon,Jorah Mormont,0,0,0,0,4,3
+Robert Baratheon,Jory Cassel,1,4,17,242,0,0
+Robert Baratheon,Lyanna Stark,0,0,0,0,9,2
+Robert Baratheon,Lysa Arryn,0,0,0,0,3,1
+Robert Baratheon,Myrcella Baratheon,0,0,3,31,0,0
+Robert Baratheon,Renly Baratheon,0,0,6,78,1,0
+Robert Baratheon,Rhaegar Targaryen,0,0,0,0,4,2
+Robert Baratheon,Rickard Stark,0,0,0,0,1,0
+Robert Baratheon,Rickon Stark,0,0,3,31,0,0
+Robert Baratheon,Robb Stark,0,0,3,31,0,0
+Robert Baratheon,Robert Arryn,0,0,0,0,9,1
+Robert Baratheon,Sandor Clegane,0,0,3,31,0,0
+Robert Baratheon,Sansa Stark,0,0,16,210,2,1
+Robert Baratheon,Tommen Baratheon,0,0,3,31,0,0
+Robert Baratheon,Tyrion Lannister,0,0,3,31,0,0
+Robert Baratheon,Tywin Lannister,0,0,0,0,4,4
+Robert Baratheon,Varys,0,0,0,0,3,2
+Robert Baratheon,Vayon Poole,0,0,13,179,0,0
+Robert Baratheon,Viserys Targaryen,0,0,0,0,2,0
+Robert Baratheon,Wylla,0,0,0,0,3,1
+Rodrik Cassel,Aron Santagar,0,0,0,0,4,3
+Rodrik Cassel,Bran Stark,2,11,7,64,0,0
+Rodrik Cassel,Catelyn Stark,22,298,7,67,1,0
+Rodrik Cassel,Donnis,1,10,8,65,0,0
+Rodrik Cassel,Eddard Stark,3,12,0,0,0,0
+Rodrik Cassel,Jaime Lannister,0,0,0,0,1,0
+Rodrik Cassel,Joffrey Baratheon,3,26,6,49,2,0
+Rodrik Cassel,Lew (guard),1,10,8,65,0,0
+Rodrik Cassel,Luwin,2,16,9,147,0,0
+Rodrik Cassel,Moreo Tumitis,4,22,2,4,0,0
+Rodrik Cassel,Petyr Baelish,0,0,3,12,3,2
+Rodrik Cassel,Robb Stark,4,58,16,180,1,0
+Rodrik Cassel,Sandor Clegane,3,31,6,44,0,0
+Rodrik Cassel,Theon Greyjoy,0,0,20,238,0,0
+Rodrik Cassel,Tommen Baratheon,2,11,7,64,0,0
+Rodrik Cassel,Unknown (Bran's assassin),0,0,0,0,2,0
+Rodrik Cassel,Unknown (Rodrik Cassel's mother),0,0,0,0,1,0
+Sandor Clegane,Arya Stark,0,0,0,0,2,0
+Sandor Clegane,Barristan Selmy,0,0,1,7,0,0
+Sandor Clegane,Bran Stark,0,0,4,47,1,0
+Sandor Clegane,Cersei Lannister,0,0,1,7,1,0
+Sandor Clegane,Donnis,0,0,4,47,0,0
+Sandor Clegane,Eddard Stark,4,24,0,0,0,0
+Sandor Clegane,Ilyn Payne,0,0,1,7,0,0
+Sandor Clegane,Joffrey Baratheon,2,24,9,75,2,0
+Sandor Clegane,Lew (guard),0,0,4,47,0,0
+Sandor Clegane,Mycah,0,0,0,0,3,0
+Sandor Clegane,Renly Baratheon,0,0,1,7,0,0
+Sandor Clegane,Robb Stark,2,22,2,25,0,0
+Sandor Clegane,Rodrik Cassel,2,25,2,22,0,0
+Sandor Clegane,Sansa Stark,2,10,1,7,0,0
+Sandor Clegane,Theon Greyjoy,0,0,4,47,0,0
+Sandor Clegane,Tommen Baratheon,0,0,4,47,0,0
+Sandor Clegane,Tyrion Lannister,6,33,2,24,0,0
+Sandor Clegane,Unknown (A man),1,7,0,0,0,0
+Sandor Clegane,Unknown (A second man),1,7,0,0,0,0
+Sansa Stark,Aerys II Targaryen,0,0,0,0,1,1
+Sansa Stark,Arya Stark,28,247,11,96,4,1
+Sansa Stark,Barristan Selmy,2,38,14,159,0,0
+Sansa Stark,Beth Cassel,1,6,6,49,0,0
+Sansa Stark,Cersei Lannister,2,24,14,173,4,0
+Sansa Stark,Eddard Stark,7,66,0,0,3,2
+Sansa Stark,Ilyn Payne,1,9,8,122,2,0
+Sansa Stark,Jeyne Poole,0,0,7,55,0,0
+Sansa Stark,Joffrey Baratheon,20,127,16,193,2,1
+Sansa Stark,Jon Snow,1,3,0,0,3,1
+Sansa Stark,Jory Cassel,0,0,7,66,0,0
+Sansa Stark,Mordane,9,62,0,0,2,2
+Sansa Stark,Mycah,0,0,3,11,1,0
+Sansa Stark,Myrcella Baratheon,0,0,2,20,4,2
+Sansa Stark,Renly Baratheon,1,45,8,86,0,0
+Sansa Stark,Robert Baratheon,0,0,7,66,2,2
+Sansa Stark,Sandor Clegane,0,0,0,0,2,0
+Sansa Stark,Unknown (Squire),1,2,0,0,0,0
+Sansa Stark,Vayon Poole,0,0,7,66,0,0
+The Other,Waymar Royce,1,1,0,0,0,0
+The Other,Will,0,0,1,1,0,0
+Theon Greyjoy,Bran Stark,2,12,9,54,0,0
+Theon Greyjoy,Catelyn Stark,7,48,2,5,0,0
+Theon Greyjoy,Desmond,1,7,9,56,0,0
+Theon Greyjoy,Donnis,0,0,1,3,0,0
+Theon Greyjoy,Eddard Stark,4,31,6,32,1,1
+Theon Greyjoy,Hallis Mollen,1,2,2,12,0,0
+Theon Greyjoy,Harwin,1,7,9,56,0,0
+Theon Greyjoy,Hullen,2,11,8,52,0,0
+Theon Greyjoy,Jaime Lannister,0,0,0,0,2,0
+Theon Greyjoy,Joffrey Baratheon,1,3,0,0,0,0
+Theon Greyjoy,Jon Snow,4,32,6,31,0,0
+Theon Greyjoy,Jory Cassel,1,7,9,56,0,0
+Theon Greyjoy,Lew (guard),0,0,1,3,0,0
+Theon Greyjoy,Luwin,0,0,6,39,0,0
+Theon Greyjoy,Robb Stark,4,18,16,101,0,0
+Theon Greyjoy,Rodrik Cassel,2,5,8,51,0,0
+Theon Greyjoy,Sandor Clegane,0,0,1,3,0,0
+Theon Greyjoy,Tommen Baratheon,0,0,1,3,0,0
+Theon Greyjoy,Unknown (Bran's assassin),0,0,0,0,2,0
+Three-Eyed crow,Bran Stark,24,121,0,0,0,0
+Toad,Donal Noye,1,5,0,0,0,0
+Toad,Grenn,0,0,4,41,0,0
+Toad,Jon Snow,3,36,1,5,1,0
+Toad,Unknown (Raper),0,0,4,41,0,0
+Tommen Baratheon,Bran Stark,0,0,0,0,2,2
+Tommen Baratheon,Cersei Lannister,0,0,2,13,0,0
+Tommen Baratheon,Jaime Lannister,0,0,2,13,0,0
+Tommen Baratheon,Myrcella Baratheon,0,0,2,13,0,0
+Tommen Baratheon,Tyrion Lannister,2,13,0,0,0,0
+Tyrion Lannister,Aerys II Targaryen,0,0,0,0,1,0
+Tyrion Lannister,Alliser Thorne,3,51,2,5,0,0
+Tyrion Lannister,Ayrmidon,0,0,0,0,1,1
+Tyrion Lannister,Benjen Stark,3,20,2,9,4,1
+Tyrion Lannister,Bran Stark,0,0,0,0,8,0
+Tyrion Lannister,Catelyn Stark,0,0,0,0,3,2
+Tyrion Lannister,Cersei Lannister,7,121,9,156,3,0
+Tyrion Lannister,Chayle,2,44,0,0,0,0
+Tyrion Lannister,Eddard Stark,0,0,0,0,9,5
+Tyrion Lannister,Jaime Lannister,15,170,11,204,2,0
+Tyrion Lannister,Jeor Mormont,0,0,0,0,1,0
+Tyrion Lannister,Joanna Lannister,0,0,0,0,1,0
+Tyrion Lannister,Joffrey Baratheon,9,125,2,11,3,0
+Tyrion Lannister,Jon Snow,69,1130,5,57,2,0
+Tyrion Lannister,Luwin,0,0,0,0,5,0
+Tyrion Lannister,Morrec,1,2,0,0,0,0
+Tyrion Lannister,Myrcella Baratheon,2,45,14,232,0,0
+Tyrion Lannister,Rickon Stark,0,0,0,0,1,0
+Tyrion Lannister,Robb Stark,0,0,0,0,2,1
+Tyrion Lannister,Robert Baratheon,0,0,0,0,5,5
+Tyrion Lannister,Sandor Clegane,6,35,9,125,0,0
+Tyrion Lannister,Tommen Baratheon,2,18,14,259,1,1
+Tyrion Lannister,Tywin Lannister,0,0,0,0,3,0
+Tyrion Lannister,Unknown (Stark servant),2,29,0,0,0,0
+Tyrion Lannister,Yoren,0,0,0,0,1,1
+Unknown (A man),Barristan Selmy,0,0,2,7,0,0
+Unknown (A man),Cersei Lannister,0,0,2,7,0,0
+Unknown (A man),Ilyn Payne,0,0,2,7,0,0
+Unknown (A man),Joffrey Baratheon,0,0,2,7,0,0
+Unknown (A man),Renly Baratheon,0,0,2,7,0,0
+Unknown (A man),Sandor Clegane,0,0,2,7,0,0
+Unknown (A man),Sansa Stark,0,0,2,7,0,0
+Unknown (A second man),Barristan Selmy,0,0,1,5,0,0
+Unknown (A second man),Cersei Lannister,0,0,1,5,0,0
+Unknown (A second man),Ilyn Payne,0,0,1,5,0,0
+Unknown (A second man),Joffrey Baratheon,0,0,1,5,0,0
+Unknown (A second man),Renly Baratheon,0,0,1,5,0,0
+Unknown (A second man),Sandor Clegane,0,0,1,5,0,0
+Unknown (A second man),Sansa Stark,0,0,1,5,0,0
+Unknown (Another man),Bran Stark,2,6,0,0,0,0
+Unknown (Another man),Desmond,2,6,0,0,0,0
+Unknown (Another man),Eddard Stark,2,6,0,0,0,0
+Unknown (Another man),Harwin,2,6,0,0,0,0
+Unknown (Another man),Hullen,2,6,0,0,0,0
+Unknown (Another man),Jon Snow,2,6,0,0,0,0
+Unknown (Another man),Jory Cassel,2,6,0,0,0,0
+Unknown (Another man),Robb Stark,2,6,0,0,0,0
+Unknown (Another man),Theon Greyjoy,2,6,0,0,0,0
+Unknown (Bran's assassin),Bran Stark,0,0,0,0,1,0
+Unknown (Bran's assassin),Catelyn Stark,5,25,0,0,0,0
+Unknown (Eunuch),Daenerys Targaryen,2,50,0,0,0,0
+Unknown (Eunuch),Drogo,2,50,0,0,0,0
+Unknown (Eunuch),Illyrio Mopatis,2,50,0,0,0,0
+Unknown (Eunuch),Jorah Mormont,2,50,0,0,0,0
+Unknown (Eunuch),Moro,2,50,0,0,0,0
+Unknown (Eunuch),Rhogoro,2,50,0,0,0,0
+Unknown (Eunuch),Viserys Targaryen,2,50,0,0,0,0
+Unknown (Gold Cloak),Catelyn Stark,4,37,0,0,0,0
+Unknown (Gold Cloak),Petyr Baelish,0,0,0,0,1,1
+Unknown (Illyrio's servant),Daenerys Targaryen,2,40,0,0,0,0
+Unknown (Illyrio's servant),Drogo,0,0,0,0,1,1
+Unknown (King's Steward),Eddard Stark,4,43,0,0,0,0
+Unknown (King's Steward),Jon Arryn,0,0,0,0,1,1
+Unknown (Raper),Donal Noye,1,5,0,0,0,0
+Unknown (Raper),Grenn,0,0,2,9,0,0
+Unknown (Raper),Jon Snow,1,4,1,5,0,0
+Unknown (Raper),Toad,0,0,2,9,0,0
+Unknown (Squire),Sansa Stark,2,21,0,0,0,0
+Varys,Aron Santagar,0,0,0,0,1,1
+Varys,Barristan Selmy,0,0,0,0,1,1
+Varys,Bran Stark,0,0,0,0,2,1
+Varys,Catelyn Stark,13,242,1,7,0,0
+Varys,Eddard Stark,7,102,0,0,1,0
+Varys,Joffrey Baratheon,0,0,0,0,1,1
+Varys,Petyr Baelish,1,7,20,344,0,0
+Varys,Pycelle,0,0,7,102,1,1
+Varys,Renly Baratheon,0,0,7,102,0,0
+Varys,Robert Baratheon,0,0,0,0,6,2
+Varys,Rodrik Cassel,0,0,0,0,2,2
+Varys,Stannis Baratheon,0,0,0,0,1,1
+Vayon Poole,Arya Stark,0,0,0,0,3,0
+Vayon Poole,Cersei Lannister,0,0,0,0,1,0
+Vayon Poole,Eddard Stark,5,42,0,0,0,0
+Vayon Poole,Jory Cassel,0,0,0,0,2,2
+Vayon Poole,Robert Baratheon,0,0,0,0,1,0
+Viserys Targaryen,Aegon I Targaryen,0,0,0,0,1,1
+Viserys Targaryen,Aegon Targaryen (son of Rhaegar),0,0,0,0,1,0
+Viserys Targaryen,Aerys II Targaryen,0,0,0,0,2,0
+Viserys Targaryen,Daenerys Targaryen,38,516,19,235,2,0
+Viserys Targaryen,Doreah,0,0,3,46,3,1
+Viserys Targaryen,Drogo,0,0,3,46,11,5
+Viserys Targaryen,Elia Martell,0,0,0,0,1,1
+Viserys Targaryen,Illyrio Mopatis,14,184,6,89,8,7
+Viserys Targaryen,Irri,0,0,3,46,2,1
+Viserys Targaryen,Jaime Lannister,0,0,0,0,1,0
+Viserys Targaryen,Jhiqui,0,0,3,46,2,1
+Viserys Targaryen,Jorah Mormont,3,43,5,66,1,1
+Viserys Targaryen,Rhaegar Targaryen,0,0,0,0,1,1
+Viserys Targaryen,Rhaenys Targaryen (daughter of Rhaegar),0,0,0,0,1,0
+Viserys Targaryen,Robert Baratheon,0,0,0,0,5,0
+Viserys Targaryen,Unknown (Palanquin),0,0,0,0,1,0
+Waymar Royce,Gared,14,153,15,118,0,0
+Waymar Royce,Robert Baratheon,0,0,0,0,0,1
+Waymar Royce,The Other,4,12,3,15,0,0
+Waymar Royce,Unknown (Waymar Royce's wet nurse),0,0,0,0,1,0
+Waymar Royce,Will,24,240,18,114,0,0
+Will,Gared,1,10,19,229,0,0
+Will,Unknown (Will's mother),0,0,0,0,1,0
+Will,Waymar Royce,22,243,0,0,0,0
+Willem Darry,Daenerys Targaryen,2,4,0,0,0,0
+Yoren,Tyrion Lannister,0,0,1,1,0,0
+Yoren,Unknown (Peasants),1,1,0,0,0,0
