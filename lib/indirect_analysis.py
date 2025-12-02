@@ -1,52 +1,72 @@
-import networkx as nx 
+"""
+Indirect (about) dialogue analysis for ASoIaF Network Analysis.
+Provides utilities for analyzing dialogues about characters.
+"""
+import networkx as nx
 import numpy as np
+from typing import List
 
-def create_graph_from_matrix(matrix, row_characters, col_characters):
+from lib.utils import _calculate_charisma
+
+
+def create_graph_from_matrix(
+    matrix: np.ndarray,
+    row_characters: List[str],
+    col_characters: List[str]
+) -> nx.DiGraph:
+    """
+    Create a directed graph from a sentiment difference matrix.
+    
+    Args:
+        matrix: 2D numpy array with edge weights (sentiment differences)
+        row_characters: List of row character names (speakers)
+        col_characters: List of column character names (addressees)
+    
+    Returns:
+        NetworkX DiGraph with charisma node attributes
+    """
     G = nx.DiGraph()
-    for i, row_character in enumerate(row_characters):
-        for j, col_character in enumerate(col_characters):
+    
+    for i, row_char in enumerate(row_characters):
+        for j, col_char in enumerate(col_characters):
             if not np.isnan(matrix[i, j]):
-                G.add_edge(row_character, col_character, weight=matrix[i, j])
-
-    # 4. Calculate charisma (Bayesian average) for each character and add it to the node attribute 'charisma'
-    # S_adj = (C * m + Σs) / (C + n)
-    # where:
-    #   C = confidence parameter (avg incoming edges per character)
-    #   m = global average sentiment
-    #   Σs = sum of incoming sentiment scores
-    #   n = total number of incoming edges for the character
+                G.add_edge(row_char, col_char, weight=matrix[i, j])
     
-    # Collect all incoming sentiments for each character
-    character_incoming = {}  # {character: [list of sentiment scores]}
-    all_sentiments = []
+    # Calculate charisma for each character
+    _calculate_charisma(G)
     
-    for u, v, data in G.edges(data=True):
-        sentiment = data.get('weight', 0.0)
-        if v not in character_incoming:
-            character_incoming[v] = []
-        character_incoming[v].append(sentiment)
-        all_sentiments.append(sentiment)
-    
-    # Calculate global statistics for Bayesian Average
-    global_mean = sum(all_sentiments) / len(all_sentiments) if all_sentiments else 0.0
-    
-    # Calculate C: average number of incoming edges per character
-    num_characters = len(character_incoming) if character_incoming else 1
-    total_incoming_edges = len(all_sentiments)
-    C = total_incoming_edges / num_characters if num_characters > 0 else 1.0
-    
-    # Calculate charisma (Bayesian average) for each character
-    for node in G.nodes():
-        if node in character_incoming:
-            incoming_scores = character_incoming[node]
-            n = len(incoming_scores)
-            sum_s = sum(incoming_scores)
-            
-            # Bayesian Average
-            charisma = (C * global_mean + sum_s) / (C + n) if (C + n) > 0 else 0.0
-            G.nodes[node]['charisma'] = charisma
-        else:
-            # Character with no incoming edges gets charisma = 0
-            G.nodes[node]['charisma'] = 0.0
-
     return G
+
+
+def compute_sentiment_difference_matrix(
+    direct_relationship_data: dict,
+    about_relationship_data: dict
+) -> tuple:
+    """
+    Compute the element-wise difference between direct and about sentiment matrices.
+    
+    Args:
+        direct_relationship_data: Relationship data from direct dialogues
+        about_relationship_data: Relationship data from "about" dialogues
+    
+    Returns:
+        Tuple of (difference_matrix, all_characters)
+    """
+    difference_matrix = []
+    all_characters = []
+    
+    for speaker in direct_relationship_data:
+        difference_matrix.append([])
+        all_characters.append(speaker)
+        
+        for target in direct_relationship_data[speaker]:
+            # Safely get values
+            about_item = about_relationship_data.get(speaker, {}).get(target)
+            direct_item = direct_relationship_data[speaker][target]
+            
+            a = about_item['adjusted_sentiment'] if about_item is not None else None
+            b = direct_item['adjusted_sentiment'] if direct_item is not None else None
+            
+            difference_matrix[-1].append(np.nan if a is None or b is None else a - b)
+    
+    return np.array(difference_matrix), all_characters
