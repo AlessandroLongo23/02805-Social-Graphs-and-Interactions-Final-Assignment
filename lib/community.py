@@ -85,9 +85,6 @@ def visualize_communities(G, partition, title="Character Communities in Game of 
     """
     fig = plt.figure(figsize=figsize)
     
-    # Create layout
-    pos = nx.spring_layout(G, k=0.66, iterations=200, seed=42)
-    
     # Get unique communities and assign colors
     communities = set(partition.values())
     colors = plt.cm.tab10(np.linspace(0, 1, len(communities)))
@@ -97,13 +94,23 @@ def visualize_communities(G, partition, title="Character Communities in Game of 
     node_colors = [community_colors[partition[node]] for node in G.nodes()]
     
     # Node sizes based on degree
-    degrees = dict(G.degree(weight='weight'))
-    node_sizes = [degrees[n] * 50 + 100 for n in G.nodes()]
+    degrees = dict(G.degree())
+    node_sizes = [degrees[n] * 80 for n in G.nodes()]
     
     # Draw edges
     weights = [G[u][v]['weight'] for u, v in G.edges()]
     max_weight = max(weights) if weights else 1
     normalized_weights = [(w / max_weight) * 5 + 0.5 for w in weights]
+
+    pos = nx.forceatlas2_layout(
+        G,
+        max_iter=200,
+        scaling_ratio=5,
+        node_mass={node: node_sizes[i] for i, node in enumerate(G.nodes())},
+        node_size={node: node_sizes[i] for i, node in enumerate(G.nodes())},
+        dissuade_hubs=True,
+        weight='weight',
+    )
     
     nx.draw_networkx_edges(
         G, pos,
@@ -191,12 +198,9 @@ def visualize_communities_separately_grid(G, partition, n_cols=2, figsize=(16, 6
             ax.axis('off')
             continue
         
-        # Layout for this community
-        pos = nx.spring_layout(subgraph, k=2, iterations=100, seed=42)
-        
         # Node sizes based on degree
-        degrees = dict(subgraph.degree(weight='weight'))
-        node_sizes = [degrees[n] * 100 + 200 for n in subgraph.nodes()]
+        degrees = dict(subgraph.degree())
+        node_sizes = [degrees[n] * 80 for n in subgraph.nodes()]
         
         # Edge weights
         if len(subgraph.edges()) > 0:
@@ -205,6 +209,16 @@ def visualize_communities_separately_grid(G, partition, n_cols=2, figsize=(16, 6
             normalized_weights = [(w / max_weight) * 8 + 1 for w in weights]
         else:
             normalized_weights = []
+        
+        pos = nx.forceatlas2_layout(
+            subgraph,
+            max_iter=200,
+            scaling_ratio=5,
+            node_mass={node: node_sizes[i] for i, node in enumerate(subgraph.nodes())},
+            node_size={node: node_sizes[i] for i, node in enumerate(subgraph.nodes())},
+            dissuade_hubs=True,
+            weight='weight',
+        )
         
         # Draw edges
         nx.draw_networkx_edges(
@@ -263,7 +277,7 @@ def visualize_major_characters(G, partition, top_n=30, figsize=(16, 12), title="
     Visualize only the top N most connected characters for clarity.
     """
     # Get top nodes by weighted degree
-    degrees = dict(G.degree(weight='weight'))
+    degrees = dict(G.degree())
     top_nodes = sorted(degrees.items(), key=lambda x: x[1], reverse=True)[:top_n]
     top_node_names = [node for node, degree in top_nodes]
     
@@ -271,9 +285,6 @@ def visualize_major_characters(G, partition, top_n=30, figsize=(16, 12), title="
     subgraph = G.subgraph(top_node_names)
     
     fig = plt.figure(figsize=figsize)
-    
-    # Create layout
-    pos = nx.spring_layout(subgraph, k=3, iterations=100, seed=42)
     
     # Get unique communities in this subgraph
     communities_in_subgraph = set(partition[node] for node in subgraph.nodes())
@@ -284,7 +295,7 @@ def visualize_major_characters(G, partition, top_n=30, figsize=(16, 12), title="
     node_colors = [community_colors[partition[node]] for node in subgraph.nodes()]
     
     # Node sizes based on degree
-    node_sizes = [degrees[n] * 80 + 300 for n in subgraph.nodes()]
+    node_sizes = [degrees[n] * 80 for n in subgraph.nodes()]
     
     # Draw edges
     if len(subgraph.edges()) > 0:
@@ -293,6 +304,16 @@ def visualize_major_characters(G, partition, top_n=30, figsize=(16, 12), title="
         normalized_weights = [(w / max_weight) * 6 + 1 for w in weights]
     else:
         normalized_weights = []
+    
+    pos = nx.forceatlas2_layout(
+        subgraph,
+        max_iter=200,
+        scaling_ratio=5,
+        node_mass={node: node_sizes[i] for i, node in enumerate(subgraph.nodes())},
+        node_size={node: node_sizes[i] for i, node in enumerate(subgraph.nodes())},
+        dissuade_hubs=True,
+        weight='weight',
+    )
     
     nx.draw_networkx_edges(
         subgraph, pos,
@@ -377,13 +398,10 @@ def visualize_communities_grid(G, partition, n_cols=3, figsize=(18, 12), title="
             ax.axis('off')
             continue
         
-        # Layout
-        pos = nx.spring_layout(subgraph, k=1.5, iterations=50, seed=42)
-        
         # Node sizes
-        degrees = dict(subgraph.degree(weight='weight'))
+        degrees = dict(subgraph.degree())
         if degrees:
-            node_sizes = [degrees[n] * 30 + 50 for n in subgraph.nodes()]
+            node_sizes = [degrees[n] * 80 for n in subgraph.nodes()]
         else:
             node_sizes = [100] * len(subgraph.nodes())
         
@@ -394,6 +412,16 @@ def visualize_communities_grid(G, partition, n_cols=3, figsize=(18, 12), title="
             normalized_weights = [(w / max_weight) * 3 + 0.5 for w in weights]
         else:
             normalized_weights = []
+        
+        pos = nx.forceatlas2_layout(
+            subgraph,
+            max_iter=200,
+            scaling_ratio=5,
+            node_mass={node: node_sizes[i] for i, node in enumerate(subgraph.nodes())},
+            node_size={node: node_sizes[i] for i, node in enumerate(subgraph.nodes())},
+            dissuade_hubs=True,
+            weight='weight',
+        )
         
         # Draw
         nx.draw_networkx_edges(subgraph, pos, width=normalized_weights, 
@@ -438,7 +466,7 @@ def get_community_names(partition, G, top_n=2):
         members = [node for node, comm in partition.items() if comm == comm_id]
         
         # Get their degrees (weighted)
-        member_degrees = [(node, G.degree(node, weight='weight')) for node in members]
+        member_degrees = [(node, G.degree(node)) for node in members]
         
         # Sort by degree and get top N
         top_members = sorted(member_degrees, key=lambda x: x[1], reverse=True)[:top_n]

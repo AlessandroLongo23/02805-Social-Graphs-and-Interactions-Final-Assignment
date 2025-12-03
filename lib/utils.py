@@ -143,7 +143,7 @@ def get_normalized_weights(G):
     if max_weight > 0:
         for _, _, data in G.edges(data=True):
             data['normalized_weight'] = data['weight'] / max_weight
-    return [data['weight'] for _, _, data in G.edges(data=True)]
+    return [data['normalized_weight'] for _, _, data in G.edges(data=True)]
 
 
 def print_graph_data(G):
